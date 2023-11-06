@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		537BDD572AF8D73D009E4822 /* App_Profile_StudenteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537BDD562AF8D73D009E4822 /* App_Profile_StudenteApp.swift */; };
-		537BDD592AF8D73D009E4822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537BDD582AF8D73D009E4822 /* ContentView.swift */; };
 		537BDD5B2AF8D73F009E4822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537BDD5A2AF8D73F009E4822 /* Assets.xcassets */; };
 		537BDD5E2AF8D73F009E4822 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537BDD5D2AF8D73F009E4822 /* Preview Assets.xcassets */; };
+		539ED44F2AF9331E00C5D8EC /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539ED44E2AF9331E00C5D8EC /* LoginUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		537BDD532AF8D73D009E4822 /* App-Profile-Studente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Profile-Studente.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		537BDD562AF8D73D009E4822 /* App_Profile_StudenteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Profile_StudenteApp.swift; sourceTree = "<group>"; };
-		537BDD582AF8D73D009E4822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		537BDD5A2AF8D73F009E4822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		537BDD5D2AF8D73F009E4822 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		539ED44E2AF9331E00C5D8EC /* LoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 		537BDD552AF8D73D009E4822 /* App-Profile-Studente */ = {
 			isa = PBXGroup;
 			children = (
+				539ED4452AF931CB00C5D8EC /* Features */,
 				537BDD562AF8D73D009E4822 /* App_Profile_StudenteApp.swift */,
-				537BDD582AF8D73D009E4822 /* ContentView.swift */,
 				537BDD5A2AF8D73F009E4822 /* Assets.xcassets */,
 				537BDD5C2AF8D73F009E4822 /* Preview Content */,
 			);
@@ -65,6 +65,70 @@
 				537BDD5D2AF8D73F009E4822 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		539ED4452AF931CB00C5D8EC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				539ED44C2AF932CE00C5D8EC /* New Group */,
+				539ED4472AF931F600C5D8EC /* AccessUsers */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		539ED4472AF931F600C5D8EC /* AccessUsers */ = {
+			isa = PBXGroup;
+			children = (
+				539ED4492AF9321D00C5D8EC /* RecoveryCredential */,
+				539ED4482AF9320C00C5D8EC /* Login */,
+			);
+			path = AccessUsers;
+			sourceTree = "<group>";
+		};
+		539ED4482AF9320C00C5D8EC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				539ED44D2AF932F100C5D8EC /* Screen */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		539ED4492AF9321D00C5D8EC /* RecoveryCredential */ = {
+			isa = PBXGroup;
+			children = (
+				539ED44B2AF932A800C5D8EC /* RecoverySchool */,
+				539ED44A2AF9329800C5D8EC /* RecoveryPassword */,
+			);
+			path = RecoveryCredential;
+			sourceTree = "<group>";
+		};
+		539ED44A2AF9329800C5D8EC /* RecoveryPassword */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RecoveryPassword;
+			sourceTree = "<group>";
+		};
+		539ED44B2AF932A800C5D8EC /* RecoverySchool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RecoverySchool;
+			sourceTree = "<group>";
+		};
+		539ED44C2AF932CE00C5D8EC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		539ED44D2AF932F100C5D8EC /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				539ED44E2AF9331E00C5D8EC /* LoginUser.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				537BDD592AF8D73D009E4822 /* ContentView.swift in Sources */,
+				539ED44F2AF9331E00C5D8EC /* LoginUser.swift in Sources */,
 				537BDD572AF8D73D009E4822 /* App_Profile_StudenteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

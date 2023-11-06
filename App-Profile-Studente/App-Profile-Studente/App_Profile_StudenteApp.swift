@@ -11,7 +11,7 @@ import SwiftUI
 struct App_Profile_StudenteApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginUser()
         }
     }
 }
