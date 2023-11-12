@@ -16,7 +16,7 @@ struct LoginUser: View {
     var body: some View {
         ZStack
         {
-            VStack(alignment:.center, spacing:100){
+            VStack(alignment:.center, spacing:85){
                 VStack{
                     Text("Day Student").font(
                         .largeTitle.bold()
@@ -30,34 +30,48 @@ struct LoginUser: View {
                         "Inserisci l'email",
                         text: $email
                     )
+                    .textFieldStyle(.roundedBorder)
+                    .background(Color.white)
+                    
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                        Text("Email dimenticata ?")
+                        Text("Email dimenticata ?").foregroundStyle(Color(uiColor: UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha: 1.00)))
                     }).frame(maxWidth:.infinity, alignment:.trailing).padding(2)
+                    
                     
                     Text("Password").frame(maxWidth: .infinity, alignment:.leading).padding(2)
                     TextField(
                         "Inserisci la password",
-                        text: $email
+                        text: $password
+                    
                     )
+                    .textFieldStyle(.roundedBorder)
+                    .background(Color.white)
+                    
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                        Text("Password dimenticata ?")
+                        Text("Password dimenticata ?").foregroundStyle(Color(uiColor: UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha: 1.00)))
                     }).frame(maxWidth:.infinity, alignment:.trailing)
                     
                     Text("Istituto").frame(maxWidth: .infinity, alignment:.leading).padding(2)
                     TextField(
                         "Scrivi l'istituto",
-                        text: $email
+                        text: $istituto
                     )
+                    .textFieldStyle(.roundedBorder)
+                    .background(Color.white)
+                    
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                        Text("Istituto dimenticato ?")
+                        Text("Istituto dimenticato ?").foregroundStyle(Color(uiColor: UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha: 1.00)))
                     }).frame(maxWidth:.infinity, alignment:.trailing).padding(2)
                 }
                 
                 VStack{
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                        Text("Accedi")
+                        Text("Accedi").foregroundStyle(Color(uiColor: UIColor(red: 0.94, green: 0.65, blue: 0.36, alpha: 1.00))).font(.headline).bold()
                     })
-                }.padding(35)
+                    .frame(width:128,height:41,alignment:.center)
+                    .background(Color.white)
+                    
+                }.padding(5)
                    
                 }.padding(35)
             
