@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct GalleriaSecondoAnno: View {
+    let imageGallery : Image
     var body: some View {
-        ZStack{}
+        HStack
+        {
+            Rectangle()
+                .foregroundStyle(.clear)
+                .frame(width:135,height:197)
+                .background(
+                    imageGallery
+                        .resizable()
+                        .aspectRatio(contentMode:  .fill)
+                        .clipped()
+                ).cornerRadius(10)
+            
+            
+        }
     }
 }
 
-#Preview {
-    GalleriaSecondoAnno()
-}
