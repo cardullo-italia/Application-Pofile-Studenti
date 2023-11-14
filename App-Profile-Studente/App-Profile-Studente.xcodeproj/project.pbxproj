@@ -20,6 +20,8 @@
 		5336F2462B01372000755967 /* MateriePreferite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F2452B01372000755967 /* MateriePreferite.swift */; };
 		5336F2492B013BEF00755967 /* RendimentoMaterieSecondGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F2482B013BEF00755967 /* RendimentoMaterieSecondGem.swift */; };
 		5336F24D2B013E7400755967 /* GalleriaSecondoAnno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F24C2B013E7400755967 /* GalleriaSecondoAnno.swift */; };
+		5338CE1A2B03B2E800A13F33 /* SfondoUserComponente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CE192B03B2E800A13F33 /* SfondoUserComponente.swift */; };
+		5338CE1E2B03B34200A13F33 /* PrimoAnnoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CE1D2B03B34200A13F33 /* PrimoAnnoScreen.swift */; };
 		533D3C5E2AFFB0CB00FBF028 /* SelectionListUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D3C5D2AFFB0CB00FBF028 /* SelectionListUser.swift */; };
 		537BDD572AF8D73D009E4822 /* App_Profile_StudenteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537BDD562AF8D73D009E4822 /* App_Profile_StudenteApp.swift */; };
 		537BDD5B2AF8D73F009E4822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537BDD5A2AF8D73F009E4822 /* Assets.xcassets */; };
@@ -29,7 +31,6 @@
 		53EA50172B0220DF0039D454 /* SfondoUserGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA50162B0220DF0039D454 /* SfondoUserGem.swift */; };
 		53EA501A2B0221270039D454 /* InformazioniUserGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA50192B0221270039D454 /* InformazioniUserGem.swift */; };
 		53EA501D2B0221A30039D454 /* MateriePreferiteNegative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA501C2B0221A30039D454 /* MateriePreferiteNegative.swift */; };
-		53EA50202B02236C0039D454 /* RendimentoMaterie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA501F2B02236C0039D454 /* RendimentoMaterie.swift */; };
 		53EA50232B0223F40039D454 /* GalleriaFotograficaSecon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA50222B0223F40039D454 /* GalleriaFotograficaSecon.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		5336F2452B01372000755967 /* MateriePreferite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriePreferite.swift; sourceTree = "<group>"; };
 		5336F2482B013BEF00755967 /* RendimentoMaterieSecondGem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendimentoMaterieSecondGem.swift; sourceTree = "<group>"; };
 		5336F24C2B013E7400755967 /* GalleriaSecondoAnno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleriaSecondoAnno.swift; sourceTree = "<group>"; };
+		5338CE192B03B2E800A13F33 /* SfondoUserComponente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfondoUserComponente.swift; sourceTree = "<group>"; };
+		5338CE1D2B03B34200A13F33 /* PrimoAnnoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimoAnnoScreen.swift; sourceTree = "<group>"; };
 		533D3C5D2AFFB0CB00FBF028 /* SelectionListUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionListUser.swift; sourceTree = "<group>"; };
 		537BDD532AF8D73D009E4822 /* App-Profile-Studente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Profile-Studente.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		537BDD562AF8D73D009E4822 /* App_Profile_StudenteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Profile_StudenteApp.swift; sourceTree = "<group>"; };
@@ -58,7 +61,6 @@
 		53EA50162B0220DF0039D454 /* SfondoUserGem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfondoUserGem.swift; sourceTree = "<group>"; };
 		53EA50192B0221270039D454 /* InformazioniUserGem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformazioniUserGem.swift; sourceTree = "<group>"; };
 		53EA501C2B0221A30039D454 /* MateriePreferiteNegative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriePreferiteNegative.swift; sourceTree = "<group>"; };
-		53EA501F2B02236C0039D454 /* RendimentoMaterie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendimentoMaterie.swift; sourceTree = "<group>"; };
 		53EA50222B0223F40039D454 /* GalleriaFotograficaSecon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleriaFotograficaSecon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,9 @@
 		5336F22D2B01010500755967 /* ITSMobile */ = {
 			isa = PBXGroup;
 			children = (
+				5338CE1C2B03B32600A13F33 /* ClasseSecondoAnno */,
+				5338CE1B2B03B31500A13F33 /* ClassePrimoAnno */,
+				5338CE182B03B27F00A13F33 /* ComponenteComune */,
 			);
 			path = ITSMobile;
 			sourceTree = "<group>";
@@ -113,9 +118,11 @@
 		5336F22E2B01011000755967 /* GemmeInf */ = {
 			isa = PBXGroup;
 			children = (
-				53EA50252B02287D0039D454 /* QuartoAnno */,
+				5336F24B2B013E4900755967 /* GalleriaStudenteSecon */,
+				53EA501B2B02217B0039D454 /* MateriePreferite */,
+				5336F2472B013BCE00755967 /* rendimentoMaterie */,
+				53EA50182B0221020039D454 /* InformazioniUser */,
 				53EA50242B02247C0039D454 /* ComuneComponent */,
-				5336F24A2B013E3400755967 /* TerzoAnno */,
 				5336F2402B0133CC00755967 /* SecondoAnno */,
 				5336F22F2B01031300755967 /* PrimoAnno */,
 			);
@@ -150,10 +157,6 @@
 		5336F2402B0133CC00755967 /* SecondoAnno */ = {
 			isa = PBXGroup;
 			children = (
-				53EA501B2B02217B0039D454 /* MateriePreferite */,
-				53EA50182B0221020039D454 /* InformazioniUser */,
-				5336F24B2B013E4900755967 /* GalleriaStudenteSecon */,
-				5336F2472B013BCE00755967 /* rendimentoMaterie */,
 				5336F2412B0133D600755967 /* Screen */,
 			);
 			path = SecondoAnno;
@@ -179,17 +182,9 @@
 		5336F2472B013BCE00755967 /* rendimentoMaterie */ = {
 			isa = PBXGroup;
 			children = (
-				53EA501E2B02234F0039D454 /* RendimentoMaterie */,
 				5336F2482B013BEF00755967 /* RendimentoMaterieSecondGem.swift */,
 			);
 			path = rendimentoMaterie;
-			sourceTree = "<group>";
-		};
-		5336F24A2B013E3400755967 /* TerzoAnno */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TerzoAnno;
 			sourceTree = "<group>";
 		};
 		5336F24B2B013E4900755967 /* GalleriaStudenteSecon */ = {
@@ -199,6 +194,29 @@
 				5336F24C2B013E7400755967 /* GalleriaSecondoAnno.swift */,
 			);
 			path = GalleriaStudenteSecon;
+			sourceTree = "<group>";
+		};
+		5338CE182B03B27F00A13F33 /* ComponenteComune */ = {
+			isa = PBXGroup;
+			children = (
+				5338CE192B03B2E800A13F33 /* SfondoUserComponente.swift */,
+			);
+			path = ComponenteComune;
+			sourceTree = "<group>";
+		};
+		5338CE1B2B03B31500A13F33 /* ClassePrimoAnno */ = {
+			isa = PBXGroup;
+			children = (
+				5338CE1D2B03B34200A13F33 /* PrimoAnnoScreen.swift */,
+			);
+			path = ClassePrimoAnno;
+			sourceTree = "<group>";
+		};
+		5338CE1C2B03B32600A13F33 /* ClasseSecondoAnno */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ClasseSecondoAnno;
 			sourceTree = "<group>";
 		};
 		533D3C5C2AFFB0A800FBF028 /* Selezione */ = {
@@ -338,14 +356,6 @@
 			path = MateriePreferite;
 			sourceTree = "<group>";
 		};
-		53EA501E2B02234F0039D454 /* RendimentoMaterie */ = {
-			isa = PBXGroup;
-			children = (
-				53EA501F2B02236C0039D454 /* RendimentoMaterie.swift */,
-			);
-			path = RendimentoMaterie;
-			sourceTree = "<group>";
-		};
 		53EA50212B0223D10039D454 /* Galleria */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,13 +370,6 @@
 				53EA50152B0220C60039D454 /* SfondoUser */,
 			);
 			path = ComuneComponent;
-			sourceTree = "<group>";
-		};
-		53EA50252B02287D0039D454 /* QuartoAnno */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = QuartoAnno;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,12 +455,13 @@
 				5336F2432B0133F700755967 /* SecondAnnualyGemInf.swift in Sources */,
 				533D3C5E2AFFB0CB00FBF028 /* SelectionListUser.swift in Sources */,
 				5336F2322B01034300755967 /* FirstAnnualyGemInf.swift in Sources */,
+				5338CE1A2B03B2E800A13F33 /* SfondoUserComponente.swift in Sources */,
 				53EA50232B0223F40039D454 /* GalleriaFotograficaSecon.swift in Sources */,
 				53EA50172B0220DF0039D454 /* SfondoUserGem.swift in Sources */,
 				53EA50142B021E360039D454 /* MaterieAntipatiche.swift in Sources */,
 				5336F2212B00E9F000755967 /* ItemSingolo.swift in Sources */,
-				53EA50202B02236C0039D454 /* RendimentoMaterie.swift in Sources */,
 				5336F2462B01372000755967 /* MateriePreferite.swift in Sources */,
+				5338CE1E2B03B34200A13F33 /* PrimoAnnoScreen.swift in Sources */,
 				537BDD572AF8D73D009E4822 /* App_Profile_StudenteApp.swift in Sources */,
 				53EA501A2B0221270039D454 /* InformazioniUserGem.swift in Sources */,
 				53EA501D2B0221A30039D454 /* MateriePreferiteNegative.swift in Sources */,

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct InformazioniUserGem: View {
+    let classInformation : Text
     var body: some View {
         VStack(spacing:10)
         {
@@ -20,13 +21,9 @@ struct InformazioniUserGem: View {
             
             HStack{
                 Text("Classe:").font(.custom("Hanuman-Regular", size: 17.0))
-                Text("2A Informatica").font(.custom("Hanuman-Regular", size: 15.0))
+                classInformation.font(.custom("Hanuman-Regular", size: 15.0))
             }.frame(width:.infinity, height:.infinity , alignment: .center)
             
         }.padding()
     }
-}
-
-#Preview {
-    InformazioniUserGem()
 }

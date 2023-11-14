@@ -12,7 +12,7 @@ struct ItemSingolo: View {
     let imageUser : Image
     let TextUser : Text
     let TextUserStud : Text
-    
+    let TextClassStudy : Text
 
     
     var body: some View {
@@ -37,12 +37,11 @@ struct ItemSingolo: View {
                 }
             }
             
-            Button(action: {} , label: {
-                Image("arrow_right").foregroundStyle(.black)
-            })
+           TextClassStudy
             
-        }.frame(width:329,height:85,alignment: .center).background(.white).cornerRadius(15.0)
+        }.frame(width:440,height:105,alignment: .center).background(.white).cornerRadius(15.0)
     }
 }
+
 
 

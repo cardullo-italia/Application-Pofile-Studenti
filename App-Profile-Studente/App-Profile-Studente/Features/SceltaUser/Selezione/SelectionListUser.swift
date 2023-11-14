@@ -18,41 +18,51 @@ struct SelectionListUser: View {
                 }
                 
                 ScrollView (.vertical,showsIndicators: false) {
-                    VStack(spacing:15){
+                    VStack(spacing:25){
                         //Profile ITS
                         NavigationLink(
                             destination: {},
-                            label: {ItemSingolo(imageUser: Image("fotoProfiloIT"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente ITS ICT TORINO "))}
+                            label: {ItemSingolo(imageUser: Image("fotoProfiloIT"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente ITS ICT TORINO "), TextClassStudy: Text("2A MAD"))}
                         ).foregroundStyle(.black)
                         NavigationLink(
                             destination: {},
-                            label: {ItemSingolo(imageUser: Image("fotoProfiloIT"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente ITS ICT TORINO "))}
+                            label: {ItemSingolo(imageUser: Image("fotoProfiloIT"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente ITS ICT TORINO "), TextClassStudy: Text("1A MAD"))}
                         ).foregroundStyle(.black)
                         
                         //Profile Gemmellaro
                         NavigationLink(
-                            destination: {},
-                            label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente ITS ICT TORINO "))}
+                            destination: {
+                         
+                            },
+                            label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente IIS GEMMELLARO "), TextClassStudy: Text("5A Inf"))}
                         ).foregroundStyle(.black)
                         
                         NavigationLink(
-                            destination: {},
-                            label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente ITS ICT TORINO "))}
+                            destination: {
+                              
+                            },
+                            label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente IIS GEMMELLARO"), TextClassStudy: Text("4A Inf"))}
                         ).foregroundStyle(.black)
                         
                         NavigationLink(
-                            destination: {},
-                            label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente ITS ICT TORINO "))}
+                            destination: {
+                    
+                            },
+                            label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente IIS GEMMELLARO"), TextClassStudy: Text("3A Inf"))}
                         ).foregroundStyle(.black)
                         
                         NavigationLink(
-                            destination: {},
-                            label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente ITS ICT TORINO "))}
+                            destination: {
+                                SecondAnnualyGemInf()
+                            },
+                            label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente IIS GEMMELLARO "), TextClassStudy: Text("2A Inf"))}
                         ).foregroundStyle(.black)
                         
                         NavigationLink(
-                            destination: {},
-                            label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente ITS ICT TORINO "))}
+                            destination: {
+                                FirstAnnualyGemInf()
+                            },
+                            label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente IIS GEMMELLARO"), TextClassStudy: Text("1A Inf"))}
                         ).foregroundStyle(.black)
                         
                     }.padding(10)

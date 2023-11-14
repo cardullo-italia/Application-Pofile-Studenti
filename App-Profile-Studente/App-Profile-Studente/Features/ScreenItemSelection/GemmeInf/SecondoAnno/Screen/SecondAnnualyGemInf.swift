@@ -9,22 +9,17 @@ import SwiftUI
 
 struct SecondAnnualyGemInf: View {
     var body: some View {
-        VStack{
-            Color(.white)
-                .ignoresSafeArea(edges: .all)
-            ScrollView(.vertical,showsIndicators: false){
-                VStack(alignment:.leading){
-                    ZStack(alignment:.center){
-                        SfondoUserGem()
+       ScrollView(.vertical,showsIndicators: false){
+            VStack(){
+                   ZStack(){
+                       SfondoUserGem()
                     }
-                    VStack{
-                        InformazioniUserGem()
+                    VStack(){
+                        InformazioniUserGem(classInformation: Text("2A Informatica"))
                         MateriePreferiteNegative()
-                        RendimentoMaterie()
                         GalleriaFotograficaSecon()
                     }
-                }.frame(width:.infinity,height:.infinity)
-            }
+                }
         }
         }
     }

@@ -21,7 +21,7 @@ struct SfondoUserGem: View {
                                 .aspectRatio(contentMode: .fill)
                                 .frame(width: 60,height:60)
                                 .clipped()
-                        ).cornerRadius(360).padding(20)
+                        ).cornerRadius(360).padding(10)
                     
                     VStack(alignment:.leading)
                     {
@@ -29,7 +29,7 @@ struct SfondoUserGem: View {
                         Text("Studente IIS Gemmellaro").foregroundStyle(.white).bold()
                     }.padding(5)
                 }
-            }.zIndex(1).padding(.top,27)
+            }.zIndex(1).padding(10)
             
             ZStack(alignment:.bottomLeading){
                 Rectangle()
