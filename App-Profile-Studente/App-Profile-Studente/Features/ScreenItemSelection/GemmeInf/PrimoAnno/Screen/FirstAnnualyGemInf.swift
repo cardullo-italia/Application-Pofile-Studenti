@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FirstAnnualyGemInf: View {
     var body: some View {
-        ScrollView(.vertical){
+        ScrollView(.vertical, showsIndicators: false){
             VStack{
                 
                 ZStack
@@ -21,7 +21,27 @@ struct FirstAnnualyGemInf: View {
                 
                 VStack
                 {
-                    
+                    Text("Materie Preferite").font(.custom("Hanuman-Bold",size:20.0)).foregroundStyle(Color(uiColor: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00)))
+                    ScrollView(.horizontal,showsIndicators: false)
+                    {
+                        HStack(spacing:10)
+                        {
+                            MateriePreferite(MateriePreferita: Text("Diritto ed Economia"))
+                            MateriePreferite(MateriePreferita: Text("Scienze della Terra"))
+                            MateriePreferite(MateriePreferita: Text("Tecnologia grafica"))
+                            
+                        }.padding(.horizontal,25)
+                    }
+                    Text("Materie Antipatiche").font(.custom("Hanuman-Bold",size:20.0)).foregroundStyle(Color(uiColor: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00)))
+                    ScrollView(.horizontal,showsIndicators: false)
+                    {
+                        HStack(spacing:10)
+                        {
+                            MaterieAntipatiche(MateriaAntipatica: Text("Tecnologia Informatica"))
+                            MaterieAntipatiche(MateriaAntipatica: Text("Italiano"))
+                            MaterieAntipatiche(MateriaAntipatica: Text("S.I. Fisica"))
+                        }.padding(.horizontal,25)
+                    }
                 }
                 
                 
@@ -30,68 +50,49 @@ struct FirstAnnualyGemInf: View {
                     
                         ScrollView(.horizontal,showsIndicators: false){
                             HStack(spacing:20){
-                                
-                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Ciao"), materiaPercentuale: Text("Ciao"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
-                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Ciao"), materiaPercentuale: Text("Ciao"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
-                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Ciao"), materiaPercentuale: Text("Ciao"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
-                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Ciao"), materiaPercentuale: Text("Ciao"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Tecnologie Informatiche"), materiaPercentuale: Text("35%"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Scienze della Terra"), materiaPercentuale: Text("54%"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Tecnologie Grafica"), materiaPercentuale: Text("75%"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Diritto ed Economia"), materiaPercentuale: Text("87%"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("S.I. Fisica"), materiaPercentuale: Text("23%"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("S.I. Chimica"), materiaPercentuale: Text("23%"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Religione"), materiaPercentuale: Text("00%"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Italiano"), materiaPercentuale: Text("33%"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Storia"), materiaPercentuale: Text("39%"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Matematica"), materiaPercentuale: Text("45%"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                                RendimentoMaterieSecondGem(nomeMateriaRendimento: Text("Scienze Motorie"), materiaPercentuale: Text("55%"), Colore: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
                             }
                             
-                        }.padding(.horizontal,24)
+                        }.padding(.horizontal,25)
                 }
                 
                 
             }
             
+            Text("Galleria fotografica dello studente").font(.custom("Hanuman-Regular", size: 20.0)).padding(.top,10).foregroundStyle(Color(uiColor: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))).padding(10)
             
-            /* Text("Galleria Fotografica dello Studente").font(.custom("", size: 18.0)).padding(.top,40)
-             
-             
-             Text("IIS Gemmellaro").font(.custom("Hanuman-Bold", size: 20.0)).bold().padding(.all,20)
-             
-             ScrollView(.horizontal,showsIndicators:false)
-             {
-             HStack(spacing:15)
-             {
-             Rectangle()
-             .foregroundStyle(.clear)
-             .frame(width:107, height:145, alignment:.center)
-             .background(
-             Image("fotoProfiloGem")
-             .resizable()
-             .aspectRatio(contentMode: .fill)
-             .frame(width:107, height:145)
-             .clipped()
-             ).cornerRadius(15.0)
-             
-             Rectangle()
-             .foregroundStyle(.clear)
-             .frame(width:107, height:145, alignment:.center)
-             .background(
-             Image("fotoProfiloGem")
-             .resizable()
-             .aspectRatio(contentMode: .fill)
-             .frame(width:107, height:145)
-             .clipped()
-             ).cornerRadius(15.0)
-             
-             Rectangle()
-             .foregroundStyle(.clear)
-             .frame(width:107, height:145, alignment:.center)
-             .background(
-             Image("fotoProfiloGem")
-             .resizable()
-             .aspectRatio(contentMode: .fill)
-             .frame(width:107, height:145)
-             .clipped()
-             ).cornerRadius(15.0)
-             
-             
-             
-             }.padding(.all,20)
-             }
-             
-             }*/
+            VStack
+            {
+                HStack(spacing:100){
+                    Text("IIS GEMMELLARO").font(.custom("Hanuman-Bold", size: 18.0)).foregroundStyle(Color(uiColor: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00)))
+                    
+                    Button {} label: {
+                        Text("Tutto").font(.custom("Hanuman-Bold", size: 14.0)).foregroundStyle(Color(uiColor: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00)))
+                    }
+                }.padding(5)
+                
+                
+                ScrollView(.horizontal, showsIndicators: false){
+                    HStack{
+                      GalleriaAnno(imageGallery: Image("fotoProfiloGem"))
+                      GalleriaAnno(imageGallery: Image("fotoProfiloGem"))
+                      GalleriaAnno(imageGallery: Image("fotoProfiloGem"))
+                      GalleriaAnno(imageGallery: Image("fotoProfiloGem"))
+                    }
+                    
+                }.padding(.horizontal,36)
+
+            }
         }
     }
 }

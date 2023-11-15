@@ -19,7 +19,7 @@
 		5336F2432B0133F700755967 /* SecondAnnualyGemInf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F2422B0133F700755967 /* SecondAnnualyGemInf.swift */; };
 		5336F2462B01372000755967 /* MateriePreferite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F2452B01372000755967 /* MateriePreferite.swift */; };
 		5336F2492B013BEF00755967 /* RendimentoMaterieSecondGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F2482B013BEF00755967 /* RendimentoMaterieSecondGem.swift */; };
-		5336F24D2B013E7400755967 /* GalleriaSecondoAnno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F24C2B013E7400755967 /* GalleriaSecondoAnno.swift */; };
+		5336F24D2B013E7400755967 /* GalleriaAnno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F24C2B013E7400755967 /* GalleriaAnno.swift */; };
 		5338CE1A2B03B2E800A13F33 /* SfondoUserComponente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CE192B03B2E800A13F33 /* SfondoUserComponente.swift */; };
 		5338CE1E2B03B34200A13F33 /* PrimoAnnoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CE1D2B03B34200A13F33 /* PrimoAnnoScreen.swift */; };
 		533D3C5E2AFFB0CB00FBF028 /* SelectionListUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D3C5D2AFFB0CB00FBF028 /* SelectionListUser.swift */; };
@@ -30,8 +30,6 @@
 		53EA50142B021E360039D454 /* MaterieAntipatiche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA50132B021E360039D454 /* MaterieAntipatiche.swift */; };
 		53EA50172B0220DF0039D454 /* SfondoUserGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA50162B0220DF0039D454 /* SfondoUserGem.swift */; };
 		53EA501A2B0221270039D454 /* InformazioniUserGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA50192B0221270039D454 /* InformazioniUserGem.swift */; };
-		53EA501D2B0221A30039D454 /* MateriePreferiteNegative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA501C2B0221A30039D454 /* MateriePreferiteNegative.swift */; };
-		53EA50232B0223F40039D454 /* GalleriaFotograficaSecon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA50222B0223F40039D454 /* GalleriaFotograficaSecon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +46,7 @@
 		5336F2422B0133F700755967 /* SecondAnnualyGemInf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAnnualyGemInf.swift; sourceTree = "<group>"; };
 		5336F2452B01372000755967 /* MateriePreferite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriePreferite.swift; sourceTree = "<group>"; };
 		5336F2482B013BEF00755967 /* RendimentoMaterieSecondGem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendimentoMaterieSecondGem.swift; sourceTree = "<group>"; };
-		5336F24C2B013E7400755967 /* GalleriaSecondoAnno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleriaSecondoAnno.swift; sourceTree = "<group>"; };
+		5336F24C2B013E7400755967 /* GalleriaAnno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleriaAnno.swift; sourceTree = "<group>"; };
 		5338CE192B03B2E800A13F33 /* SfondoUserComponente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfondoUserComponente.swift; sourceTree = "<group>"; };
 		5338CE1D2B03B34200A13F33 /* PrimoAnnoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimoAnnoScreen.swift; sourceTree = "<group>"; };
 		533D3C5D2AFFB0CB00FBF028 /* SelectionListUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionListUser.swift; sourceTree = "<group>"; };
@@ -60,8 +58,6 @@
 		53EA50132B021E360039D454 /* MaterieAntipatiche.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterieAntipatiche.swift; sourceTree = "<group>"; };
 		53EA50162B0220DF0039D454 /* SfondoUserGem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfondoUserGem.swift; sourceTree = "<group>"; };
 		53EA50192B0221270039D454 /* InformazioniUserGem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformazioniUserGem.swift; sourceTree = "<group>"; };
-		53EA501C2B0221A30039D454 /* MateriePreferiteNegative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriePreferiteNegative.swift; sourceTree = "<group>"; };
-		53EA50222B0223F40039D454 /* GalleriaFotograficaSecon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleriaFotograficaSecon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,11 +114,8 @@
 		5336F22E2B01011000755967 /* GemmeInf */ = {
 			isa = PBXGroup;
 			children = (
-				5336F24B2B013E4900755967 /* GalleriaStudenteSecon */,
-				53EA501B2B02217B0039D454 /* MateriePreferite */,
-				5336F2472B013BCE00755967 /* rendimentoMaterie */,
-				53EA50182B0221020039D454 /* InformazioniUser */,
-				53EA50242B02247C0039D454 /* ComuneComponent */,
+				53732F982B04BFB900C92B27 /* New Group */,
+				53732F972B04BDFB00C92B27 /* MaterialeScreen */,
 				5336F2402B0133CC00755967 /* SecondoAnno */,
 				5336F22F2B01031300755967 /* PrimoAnno */,
 			);
@@ -190,8 +183,7 @@
 		5336F24B2B013E4900755967 /* GalleriaStudenteSecon */ = {
 			isa = PBXGroup;
 			children = (
-				53EA50212B0223D10039D454 /* Galleria */,
-				5336F24C2B013E7400755967 /* GalleriaSecondoAnno.swift */,
+				5336F24C2B013E7400755967 /* GalleriaAnno.swift */,
 			);
 			path = GalleriaStudenteSecon;
 			sourceTree = "<group>";
@@ -226,6 +218,25 @@
 				533D3C5D2AFFB0CB00FBF028 /* SelectionListUser.swift */,
 			);
 			path = Selezione;
+			sourceTree = "<group>";
+		};
+		53732F972B04BDFB00C92B27 /* MaterialeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5336F24B2B013E4900755967 /* GalleriaStudenteSecon */,
+				53EA501B2B02217B0039D454 /* MateriePreferite */,
+				5336F2472B013BCE00755967 /* rendimentoMaterie */,
+				53EA50182B0221020039D454 /* InformazioniUser */,
+				53EA50242B02247C0039D454 /* ComuneComponent */,
+			);
+			path = MaterialeScreen;
+			sourceTree = "<group>";
+		};
+		53732F982B04BFB900C92B27 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		537BDD4A2AF8D73D009E4822 = {
@@ -351,17 +362,8 @@
 			isa = PBXGroup;
 			children = (
 				5336F2442B01370B00755967 /* Materie */,
-				53EA501C2B0221A30039D454 /* MateriePreferiteNegative.swift */,
 			);
 			path = MateriePreferite;
-			sourceTree = "<group>";
-		};
-		53EA50212B0223D10039D454 /* Galleria */ = {
-			isa = PBXGroup;
-			children = (
-				53EA50222B0223F40039D454 /* GalleriaFotograficaSecon.swift */,
-			);
-			path = Galleria;
 			sourceTree = "<group>";
 		};
 		53EA50242B02247C0039D454 /* ComuneComponent */ = {
@@ -450,13 +452,12 @@
 			files = (
 				5336F23F2B011EF800755967 /* ItemMateriaPrimoGem.swift in Sources */,
 				5336F2492B013BEF00755967 /* RendimentoMaterieSecondGem.swift in Sources */,
-				5336F24D2B013E7400755967 /* GalleriaSecondoAnno.swift in Sources */,
+				5336F24D2B013E7400755967 /* GalleriaAnno.swift in Sources */,
 				539ED44F2AF9331E00C5D8EC /* LoginUser.swift in Sources */,
 				5336F2432B0133F700755967 /* SecondAnnualyGemInf.swift in Sources */,
 				533D3C5E2AFFB0CB00FBF028 /* SelectionListUser.swift in Sources */,
 				5336F2322B01034300755967 /* FirstAnnualyGemInf.swift in Sources */,
 				5338CE1A2B03B2E800A13F33 /* SfondoUserComponente.swift in Sources */,
-				53EA50232B0223F40039D454 /* GalleriaFotograficaSecon.swift in Sources */,
 				53EA50172B0220DF0039D454 /* SfondoUserGem.swift in Sources */,
 				53EA50142B021E360039D454 /* MaterieAntipatiche.swift in Sources */,
 				5336F2212B00E9F000755967 /* ItemSingolo.swift in Sources */,
@@ -464,7 +465,6 @@
 				5338CE1E2B03B34200A13F33 /* PrimoAnnoScreen.swift in Sources */,
 				537BDD572AF8D73D009E4822 /* App_Profile_StudenteApp.swift in Sources */,
 				53EA501A2B0221270039D454 /* InformazioniUserGem.swift in Sources */,
-				53EA501D2B0221A30039D454 /* MateriePreferiteNegative.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

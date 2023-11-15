@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GalleriaSecondoAnno: View {
+struct GalleriaAnno: View {
     let imageGallery : Image
     var body: some View {
         HStack
