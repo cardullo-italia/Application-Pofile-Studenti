@@ -9,10 +9,11 @@ import SwiftUI
 
 struct InformazioniUserGem: View {
     let classInformation : Text
+    let ColorInformation : UIColor
     var body: some View {
         VStack(spacing:10)
         {
-            Text("Informazioni Principali").font(.custom("Hanuman-Bold", size: 20.0)).foregroundStyle(Color(uiColor: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00)))
+            Text("Informazioni Principali").font(.custom("Hanuman-Bold", size: 20.0)).foregroundStyle(Color(uiColor: ColorInformation))
             
             HStack{
                 Text("Indirizzo di studi:").font(.custom("Hanuman-Regular", size: 15.0))

@@ -32,21 +32,21 @@ struct SelectionListUser: View {
                         //Profile Gemmellaro
                         NavigationLink(
                             destination: {
-                         
+                                QuintoAnnoGemInf()
                             },
                             label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente IIS GEMMELLARO "), TextClassStudy: Text("5A Inf"))}
                         ).foregroundStyle(.black)
                         
                         NavigationLink(
                             destination: {
-                              
+                              QuartoAnnoInfGem()
                             },
                             label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente IIS GEMMELLARO"), TextClassStudy: Text("4A Inf"))}
                         ).foregroundStyle(.black)
                         
                         NavigationLink(
                             destination: {
-                    
+                             TerzoAnnoGem()
                             },
                             label: {ItemSingolo(imageUser: Image("fotoProfiloGem"), TextUser: Text("Italia M.D. Cardullo"), TextUserStud: Text("Studente IIS GEMMELLARO"), TextClassStudy: Text("3A Inf"))}
                         ).foregroundStyle(.black)

@@ -17,7 +17,7 @@ struct SecondAnnualyGemInf: View {
                     SfondoUserGem()
                 }.padding(10)
                 
-                    InformazioniUserGem(classInformation:Text("2A Informatica"))
+                    InformazioniUserGem(classInformation:Text("2A Informatica"),ColorInformation: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
                 
                 VStack
                 {
@@ -26,9 +26,9 @@ struct SecondAnnualyGemInf: View {
                     {
                         HStack(spacing:10)
                         {
-                            MateriePreferite(MateriePreferita: Text("Scienze Applicate"))
-                            MateriePreferite(MateriePreferita: Text("Italiano"))
-                            MateriePreferite(MateriePreferita: Text("Tecnologia grafica"))
+                            MateriePreferite(MateriePreferita: Text("Scienze Applicate"),ColoreMateriaPrferita: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                            MateriePreferite(MateriePreferita: Text("Italiano"), ColoreMateriaPrferita: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
+                            MateriePreferite(MateriePreferita: Text("Tecnologia grafica"),ColoreMateriaPrferita: UIColor(red: 0.30, green: 0.31, blue: 0.20, alpha: 1.00))
                             
                         }.padding(.horizontal,25)
                     }

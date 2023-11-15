@@ -23,6 +23,9 @@
 		5338CE1A2B03B2E800A13F33 /* SfondoUserComponente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CE192B03B2E800A13F33 /* SfondoUserComponente.swift */; };
 		5338CE1E2B03B34200A13F33 /* PrimoAnnoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CE1D2B03B34200A13F33 /* PrimoAnnoScreen.swift */; };
 		533D3C5E2AFFB0CB00FBF028 /* SelectionListUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D3C5D2AFFB0CB00FBF028 /* SelectionListUser.swift */; };
+		53732F9B2B04C04C00C92B27 /* TerzoAnnoGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53732F9A2B04C04C00C92B27 /* TerzoAnnoGem.swift */; };
+		53732F9F2B04C71800C92B27 /* QuartoAnnoInfGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53732F9E2B04C71800C92B27 /* QuartoAnnoInfGem.swift */; };
+		53732FA32B04C89300C92B27 /* QuintoAnnoGemInf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53732FA22B04C89300C92B27 /* QuintoAnnoGemInf.swift */; };
 		537BDD572AF8D73D009E4822 /* App_Profile_StudenteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537BDD562AF8D73D009E4822 /* App_Profile_StudenteApp.swift */; };
 		537BDD5B2AF8D73F009E4822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537BDD5A2AF8D73F009E4822 /* Assets.xcassets */; };
 		537BDD5E2AF8D73F009E4822 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537BDD5D2AF8D73F009E4822 /* Preview Assets.xcassets */; };
@@ -50,6 +53,9 @@
 		5338CE192B03B2E800A13F33 /* SfondoUserComponente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfondoUserComponente.swift; sourceTree = "<group>"; };
 		5338CE1D2B03B34200A13F33 /* PrimoAnnoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimoAnnoScreen.swift; sourceTree = "<group>"; };
 		533D3C5D2AFFB0CB00FBF028 /* SelectionListUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionListUser.swift; sourceTree = "<group>"; };
+		53732F9A2B04C04C00C92B27 /* TerzoAnnoGem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerzoAnnoGem.swift; sourceTree = "<group>"; };
+		53732F9E2B04C71800C92B27 /* QuartoAnnoInfGem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartoAnnoInfGem.swift; sourceTree = "<group>"; };
+		53732FA22B04C89300C92B27 /* QuintoAnnoGemInf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuintoAnnoGemInf.swift; sourceTree = "<group>"; };
 		537BDD532AF8D73D009E4822 /* App-Profile-Studente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Profile-Studente.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		537BDD562AF8D73D009E4822 /* App_Profile_StudenteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Profile_StudenteApp.swift; sourceTree = "<group>"; };
 		537BDD5A2AF8D73F009E4822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,7 +120,9 @@
 		5336F22E2B01011000755967 /* GemmeInf */ = {
 			isa = PBXGroup;
 			children = (
-				53732F982B04BFB900C92B27 /* New Group */,
+				53732FA02B04C87A00C92B27 /* QuintoAnnoInfGem */,
+				53732F9C2B04C6F100C92B27 /* QuartoAnnoInfGem */,
+				53732F982B04BFB900C92B27 /* TerzoAnnoGem */,
 				53732F972B04BDFB00C92B27 /* MaterialeScreen */,
 				5336F2402B0133CC00755967 /* SecondoAnno */,
 				5336F22F2B01031300755967 /* PrimoAnno */,
@@ -232,11 +240,52 @@
 			path = MaterialeScreen;
 			sourceTree = "<group>";
 		};
-		53732F982B04BFB900C92B27 /* New Group */ = {
+		53732F982B04BFB900C92B27 /* TerzoAnnoGem */ = {
 			isa = PBXGroup;
 			children = (
+				53732F992B04C03B00C92B27 /* Screen */,
 			);
-			path = "New Group";
+			path = TerzoAnnoGem;
+			sourceTree = "<group>";
+		};
+		53732F992B04C03B00C92B27 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				53732F9A2B04C04C00C92B27 /* TerzoAnnoGem.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		53732F9C2B04C6F100C92B27 /* QuartoAnnoInfGem */ = {
+			isa = PBXGroup;
+			children = (
+				53732F9D2B04C70600C92B27 /* Screen */,
+			);
+			path = QuartoAnnoInfGem;
+			sourceTree = "<group>";
+		};
+		53732F9D2B04C70600C92B27 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				53732F9E2B04C71800C92B27 /* QuartoAnnoInfGem.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		53732FA02B04C87A00C92B27 /* QuintoAnnoInfGem */ = {
+			isa = PBXGroup;
+			children = (
+				53732FA12B04C88400C92B27 /* Screen */,
+			);
+			path = QuintoAnnoInfGem;
+			sourceTree = "<group>";
+		};
+		53732FA12B04C88400C92B27 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				53732FA22B04C89300C92B27 /* QuintoAnnoGemInf.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		537BDD4A2AF8D73D009E4822 = {
@@ -451,11 +500,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5336F23F2B011EF800755967 /* ItemMateriaPrimoGem.swift in Sources */,
+				53732FA32B04C89300C92B27 /* QuintoAnnoGemInf.swift in Sources */,
 				5336F2492B013BEF00755967 /* RendimentoMaterieSecondGem.swift in Sources */,
 				5336F24D2B013E7400755967 /* GalleriaAnno.swift in Sources */,
 				539ED44F2AF9331E00C5D8EC /* LoginUser.swift in Sources */,
+				53732F9F2B04C71800C92B27 /* QuartoAnnoInfGem.swift in Sources */,
 				5336F2432B0133F700755967 /* SecondAnnualyGemInf.swift in Sources */,
 				533D3C5E2AFFB0CB00FBF028 /* SelectionListUser.swift in Sources */,
+				53732F9B2B04C04C00C92B27 /* TerzoAnnoGem.swift in Sources */,
 				5336F2322B01034300755967 /* FirstAnnualyGemInf.swift in Sources */,
 				5338CE1A2B03B2E800A13F33 /* SfondoUserComponente.swift in Sources */,
 				53EA50172B0220DF0039D454 /* SfondoUserGem.swift in Sources */,
