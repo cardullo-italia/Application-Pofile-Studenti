@@ -123,7 +123,6 @@
 				53732FA02B04C87A00C92B27 /* QuintoAnnoInfGem */,
 				53732F9C2B04C6F100C92B27 /* QuartoAnnoInfGem */,
 				53732F982B04BFB900C92B27 /* TerzoAnnoGem */,
-				53732F972B04BDFB00C92B27 /* MaterialeScreen */,
 				5336F2402B0133CC00755967 /* SecondoAnno */,
 				5336F22F2B01031300755967 /* PrimoAnno */,
 			);
@@ -328,6 +327,7 @@
 		539ED4452AF931CB00C5D8EC /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				53732F972B04BDFB00C92B27 /* MaterialeScreen */,
 				5336F22C2B0100F100755967 /* ScreenItemSelection */,
 				539ED44C2AF932CE00C5D8EC /* SceltaUser */,
 				539ED4472AF931F600C5D8EC /* AccessUsers */,

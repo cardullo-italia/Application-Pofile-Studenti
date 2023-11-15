@@ -10,44 +10,44 @@ import SwiftUI
 struct SfondoUserComponente: View {
     var body: some View {
         
-        ZStack(){
+        ZStack(alignment:.topLeading){
             ZStack(alignment:.topLeading){
+                HStack(alignment:.center){
+                    Rectangle()
+                        .foregroundStyle(.clear)
+                        .frame(width:60,height:60,alignment:.center)
+                        .background(
+                            Image("fotoProfiloIT")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 60,height:60)
+                                .clipped()
+                        ).cornerRadius(360).padding(10)
+                    
+                    VStack(alignment:.leading)
+                    {
+                        Text("Italia M.D. Cardullo").foregroundStyle(.white).bold().zIndex(1)
+                        Text("Studente ITS ICT TORINO").foregroundStyle(.white).bold()
+                    }.padding(5)
+                }
+            }.zIndex(1).padding(10)
+            
+            ZStack(alignment:.bottomLeading){
                 Rectangle()
                     .foregroundStyle(.clear)
-                    .frame(width:375,height:238)
+                    .frame(width:.infinity, height:238, alignment:.center)
                     .background(
                         Image("backgroundProfiloITS")
                             .resizable()
                             .aspectRatio(contentMode: .fill)
-                            .frame(width:375,height:238)
+                            .frame(width: .infinity ,height:238)
                             .clipped()
-                    ).cornerRadius(25)
-                ZStack
-                {
-                    HStack(spacing:20)
-                    {
-                        Circle()
-                            .foregroundStyle(.clear)
-                            .frame(width:50,height:50)
-                            .background(
-                                Image("fotoProfiloIT")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fill)
-                                    .frame(width:50,height:50)
-                                    .clipped()
-                            ).cornerRadius(360)
-                        VStack(alignment:.leading,spacing:3)
-                        {
-                            Text("Italia M.D. Cardullo").font(.custom("Italiana-Regular", size: 20.0)).foregroundStyle(Color(uiColor: UIColor(red: 1.00, green: 1.00, blue: 1.00, alpha: 1.00)))
-                            
-                            Text("Studente ITS ICT TORINO").font(.custom("Hanuman-Regular", size: 12.0)).foregroundStyle(Color(uiColor: UIColor(red: 1.00, green: 1.00, blue: 1.00, alpha: 1.00)))
-                        }
-                    }
-                }.padding(20)
+                    ).cornerRadius(15.0)
+                VStack{
+                    Text("'Ho il DNA contaminato dall'informatica'").font(.custom("Hanuman-Bold", size: 15.0)).foregroundStyle(.white).padding(25)
+                }
             }
-        
         }
-        
     }
 }
 
