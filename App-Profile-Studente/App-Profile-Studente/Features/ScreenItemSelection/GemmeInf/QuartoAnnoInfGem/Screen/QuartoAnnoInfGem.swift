@@ -83,9 +83,6 @@ struct QuartoAnnoInfGem: View {
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack{
                       GalleriaAnno(imageGallery: Image("fotoProfiloGem"))
-                      GalleriaAnno(imageGallery: Image("fotoProfiloGem"))
-                      GalleriaAnno(imageGallery: Image("fotoProfiloGem"))
-                      GalleriaAnno(imageGallery: Image("fotoProfiloGem"))
                     }
                     
                 }.padding(.horizontal,36)

@@ -50,26 +50,16 @@ struct LoginUser: View {
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                         Text("Password dimenticata ?").foregroundStyle(Color(uiColor: UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha: 1.00)))
                     }).frame(maxWidth:.infinity, alignment:.trailing)
-                    
-                    Text("Istituto").frame(maxWidth: .infinity, alignment:.leading).padding(2)
-                    TextField(
-                        "Scrivi l'istituto",
-                        text: $istituto
-                    )
-                    .textFieldStyle(.roundedBorder)
-                    .background(Color.white)
-                    
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                        Text("Istituto dimenticato ?").foregroundStyle(Color(uiColor: UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha: 1.00)))
-                    }).frame(maxWidth:.infinity, alignment:.trailing).padding(2)
                 }
                 
                 VStack{
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Button(action: {
+                       
+                    }, label: {
                         Text("Accedi").foregroundStyle(Color(uiColor: UIColor(red: 0.94, green: 0.65, blue: 0.36, alpha: 1.00))).font(.headline).bold()
                     })
                     .frame(width:128,height:41,alignment:.center)
-                    .background(Color.white)
+                    .background(Color.white).cornerRadius(15)
                     
                 }.padding(5)
                    

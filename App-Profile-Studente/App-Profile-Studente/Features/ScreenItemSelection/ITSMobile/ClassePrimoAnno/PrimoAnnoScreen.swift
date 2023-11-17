@@ -19,7 +19,7 @@ struct PrimoAnnoScreen: View {
                 
                     InformazioniUserGem(classInformation:Text("1A MAD"),ColorInformation: UIColor(red: 0.94, green: 0.65, blue: 0.36, alpha: 1.00))
                 
-                
+            
                 VStack{
                     Text("Rendimento Materie").font(.custom("Hanuman-Bold",size:20.0)).foregroundStyle(Color(uiColor: UIColor(red: 0.94, green: 0.65, blue: 0.36, alpha: 1.00)))
                     
