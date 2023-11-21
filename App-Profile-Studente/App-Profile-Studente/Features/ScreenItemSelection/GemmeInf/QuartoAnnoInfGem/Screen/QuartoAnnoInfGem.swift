@@ -18,6 +18,7 @@ struct QuartoAnnoInfGem: View {
                 
                     InformazioniUserGem(classInformation:Text("4A Informatica"),ColorInformation: UIColor(red: 0.20, green: 0.31, blue: 0.25, alpha: 1.00))
                 
+                
                 VStack
                 {
                     Text("Materie Preferite").font(.custom("Hanuman-Bold",size:20.0)).foregroundStyle(Color(uiColor: UIColor(red: 0.20, green: 0.31, blue: 0.25, alpha: 1.00)))
